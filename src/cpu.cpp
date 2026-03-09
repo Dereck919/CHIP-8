@@ -1,8 +1,9 @@
-#include"cpu.h"
-#include<iostream>
+#include <cstdint>
+#include "SDL3/SDL.h"
 
-using namespace std;
+#include "glad/gl.h"
 
-void testFunction(){
-    cout << "Nadow is scrunk";
-}
+class chip8{
+public: 
+    
+};

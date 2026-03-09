@@ -20,6 +20,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/MSVC-C.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/MSVC-CXX.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/MSVC.cmake"
+  "C:/Program Files/CMake/share/cmake-4.3/Modules/FeatureSummary.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCLinkerInformation.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCXXLinkerInformation.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake"
@@ -40,6 +41,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.3.0-rc2/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.3.0-rc2/CMakeRCCompiler.cmake"
   "CMakeFiles/4.3.0-rc2/CMakeSystem.cmake"
+  "C:/Users/Kirkm/Documents/projects/CHIP-8/src/lib/cmake/SDL3/SDL3Config.cmake"
+  "C:/Users/Kirkm/Documents/projects/CHIP-8/src/lib/cmake/SDL3/SDL3ConfigVersion.cmake"
+  "C:/Users/Kirkm/Documents/projects/CHIP-8/src/lib/cmake/SDL3/SDL3headersTargets.cmake"
+  "C:/Users/Kirkm/Documents/projects/CHIP-8/src/lib/cmake/SDL3/SDL3sharedTargets-release.cmake"
+  "C:/Users/Kirkm/Documents/projects/CHIP-8/src/lib/cmake/SDL3/SDL3sharedTargets.cmake"
+  "C:/Users/Kirkm/Documents/projects/CHIP-8/src/lib/cmake/SDL3/SDL3testTargets-release.cmake"
+  "C:/Users/Kirkm/Documents/projects/CHIP-8/src/lib/cmake/SDL3/SDL3testTargets.cmake"
   )
 
 # The corresponding makefile is:
