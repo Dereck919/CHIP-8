@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/Kirkm/Documents/projects/CHIP-8/src/glad/src/glad.c" "CMakeFiles/main.dir/src/glad/src/glad.c.obj" "msvc" "CMakeFiles/main.dir/src/glad/src/glad.c.obj.d"
   "C:/Users/Kirkm/Documents/projects/CHIP-8/src/cpu.cpp" "CMakeFiles/main.dir/src/cpu.cpp.obj" "msvc" "CMakeFiles/main.dir/src/cpu.cpp.obj.d"
   "C:/Users/Kirkm/Documents/projects/CHIP-8/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.obj" "msvc" "CMakeFiles/main.dir/src/main.cpp.obj.d"
   )

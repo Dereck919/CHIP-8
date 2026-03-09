@@ -142,6 +142,30 @@ src\cpu.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\src\cpu.cpp.s
 .PHONY : src\cpu.cpp.s
 
+src\glad\src\glad.obj: src\glad\src\glad.c.obj
+.PHONY : src\glad\src\glad.obj
+
+# target to build an object file
+src\glad\src\glad.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\src\glad\src\glad.c.obj
+.PHONY : src\glad\src\glad.c.obj
+
+src\glad\src\glad.i: src\glad\src\glad.c.i
+.PHONY : src\glad\src\glad.i
+
+# target to preprocess a source file
+src\glad\src\glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\src\glad\src\glad.c.i
+.PHONY : src\glad\src\glad.c.i
+
+src\glad\src\glad.s: src\glad\src\glad.c.s
+.PHONY : src\glad\src\glad.s
+
+# target to generate assembly for a file
+src\glad\src\glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\src\glad\src\glad.c.s
+.PHONY : src\glad\src\glad.c.s
+
 src\main.obj: src\main.cpp.obj
 .PHONY : src\main.obj
 
@@ -178,6 +202,9 @@ help:
 	@echo ... src/cpu.obj
 	@echo ... src/cpu.i
 	@echo ... src/cpu.s
+	@echo ... src/glad/src/glad.obj
+	@echo ... src/glad/src/glad.i
+	@echo ... src/glad/src/glad.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

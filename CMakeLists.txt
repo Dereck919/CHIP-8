@@ -7,7 +7,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(main
   src/main.cpp
   src/cpu.cpp
-  external/glad/src/gl.c
+  src/glad/src/glad.c
+
 )
 
 find_package(SDL3 CONFIG REQUIRED)
