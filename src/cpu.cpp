@@ -49,9 +49,44 @@ class Chip8{
         pc = addr;
     }
 
+    //2nnn - Call addr
+    void Chip8::OP_2nnn(){
+        uint16_t addr = opcode & 0x0FFU;
+        stack[sp] = pc;
+        ++sp;
+        pc = addr;
+    }
+
     //3xkk - SE Vx, byte
     void Chip8::OP_3xkk(){
-        
+        uint8_t Vx = (opcode & 0x0F00u) >> 8u;
+        uint8_t kk = (opcode & 0x00FFu);
+
+        if(registers[Vx] == kk){
+            pc+=2;
+        }
     }
+
+    //4xkk - SNE Vx, byte 
+    void Chip8::OP_4xkk(){
+        uint8_t Vx = (opcode & 0x0F00u) >> 8u;
+        uint8_t kk = (opcode &0x00FFu);
+
+        if(registers[Vx] != kk){
+            pc+=2;
+        }
+    }
+
+    //5xy0 - SE Vx, Vy
+    void Chip8::OP_5xy0(){
+        uint8_t Vx = (opcode & 0x0F00u) >> 8u;
+        uint8_t Vy = (opcode & 0x0F00u) >> 4u;
+
+        if(registers[Vx] == registers[Vy]){
+            pc+=2;
+        }
+    }
+
+
 
 };
